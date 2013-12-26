@@ -1,0 +1,10 @@
+@name 
+@inputs LFx RFx LBx RBx Cx
+@outputs LFi RFi LBi RBi
+@persist 
+@trigger 
+
+LFi = Cx-LFx
+RFi = Cx-RFx
+LBi = Cx-LBx
+RBi = Cx-RBx
