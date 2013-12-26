@@ -1,6 +1,6 @@
 @name 
-@inputs LFx RFx LBx RBx Cx
-@outputs LFi RFi LBi RBi
+@inputs LFx RFx LBx RBx Cx 
+@outputs LFi RFi LBi RBi OLFx ORFx OLBx ORBx
 @persist 
 @trigger 
 
@@ -8,3 +8,7 @@ LFi = Cx-LFx
 RFi = Cx-RFx
 LBi = Cx-LBx
 RBi = Cx-RBx
+OLFx = LFx - 1
+ORFx = RFx - 1
+OLBx = LBx - 1
+ORBx = RBx - 1
